@@ -1,3 +1,3 @@
 # NUnitApp
 
-#### Demonstrates how to use NUnit in .Net Core.
+Demonstrates how to use NUnit in .Net Core.

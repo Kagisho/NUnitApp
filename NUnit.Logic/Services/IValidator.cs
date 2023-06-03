@@ -1,4 +1,6 @@
-﻿namespace NUnit.Logic
+﻿using NUnit.Logic.Models;
+
+namespace NUnit.Logic.Services
 {
     public interface IValidator
     {

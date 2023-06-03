@@ -1,10 +1,13 @@
-﻿namespace NUnit.Logic
+﻿using NUnit.Logic.Models;
+
+namespace NUnit.Logic.Services
 {
     public class Validator : IValidator
     {
         public ValidationResult ValidateAge(Person person)
         {
-            ValidationResult result = new() {
+            ValidationResult result = new()
+            {
                 IsValid = true
             };
 

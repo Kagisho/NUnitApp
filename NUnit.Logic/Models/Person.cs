@@ -1,4 +1,4 @@
-﻿namespace NUnit.Logic
+﻿namespace NUnit.Logic.Models
 {
     public class Person
     {
@@ -11,7 +11,7 @@
             var age = dateRequested.Year - DateOfBirth.Year;
 
             if (age < 0) throw new ArgumentOutOfRangeException(nameof(Age), "Age cannot be less than 0");
-            
+
             if (age > 120) throw new ArgumentOutOfRangeException(nameof(Age), "Age cannot be more than 120");
 
             return age;

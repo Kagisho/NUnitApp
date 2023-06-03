@@ -1,4 +1,4 @@
-﻿namespace NUnit.Logic
+﻿namespace NUnit.Logic.Models
 {
     public class RegistrationResult
     {

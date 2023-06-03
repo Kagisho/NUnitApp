@@ -1,4 +1,7 @@
-﻿namespace NUnit.Logic
+﻿using NUnit.Logic.Models;
+using NUnit.Logic.Services;
+
+namespace NUnit.Logic
 {
     public partial class RegistrationProcessor
     {
